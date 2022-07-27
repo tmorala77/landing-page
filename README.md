@@ -1,4 +1,4 @@
-# landing-page
+# Landing Page 
 
 Hello! This is my first attempt at creating a landing page using 
 HTML and CSS. I am excited to be sharing this with you all and I am glad 
