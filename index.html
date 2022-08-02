@@ -1,17 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8"> 
+        <meta charset="UTF-8">
         <title>Landing Page</title>
-        <link rel="stylesheet" href="style-sheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style-sheet.css">
+        <style type="text/css">
+          body { margin:0; }
+        </style>
     </head>
     <body>
-      <div>
-        <div>
-            <div>
-                
-            </div>
+      <header>
+        <div class="inner-column">
+          <h1>My Website</h1>
+          <ul class="link-list">
+            <li><a href="./pages/page-one.html">Link One</a></li>
+            <li><a href="./pages/page-two.html">Link Two</a></li>
+            <li><a href="./pages/page-three.html">Link Three</a></li>
+          </ul>
         </div>
-      </div>  
+      </header>
+
+      <main>
+        <section class="first">
+          <div class="inner-column">
+            <div class="graph">
+              <div class="picture">
+                <img src="./images/fox.jpeg" alt="A picture of a tangy fox.">
+              </div>
+              <div class="text-content">
+                <h1>Best Earth Life Photos</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras 
+                  pulvinar mattis nunc sed blandit libero volutpat.</p>
+
+                <a class="button"  href="./pages/page-one.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section>
+          <div class="inner-col">
+            <div class="information">
+              <div class="info-title">
+                <h2>Information</h2>
+              </div>
+              <ul class="three-images">
+                <li class="content">
+                  <content-card>
+                    <picture>
+                      <img src="./images/lady.jpeg">
+                    </picture>
+                    <text class="text-cent">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </text>
+                  </content-card>
+                </li>
+
+                <li class="content">
+                  <content-card>
+                    <picture>
+                      <img src="./images/light house.jpeg">
+                    </picture>
+                    <text class="text-cent">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </text>
+                  </content-card>
+                </li>
+
+                <li class="content">
+                  <content-card>
+                    <picture>
+                      <img src="./images/mountains.jpeg">
+                    </picture>
+                    <text class="text-cent">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </text>
+                  </content-card>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="quote">
+          <div class="inner-column">
+            <div class="quote-text">
+              <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla 
+                urna porttitor. Vel eros donec ac odio tempor orci.</em></p>
+              
+                <p class="signature"><em>- Pharetra</em></p>
+            
+              </div>
+          </div>
+        </section>
+
+        <section class="call-action">
+          <div class="inner-column">
+            <div class="blue-box">
+              <h2>
+                Call To Action
+              </h2>
+            <div class="call-para">
+              <p>Sign up to see all the photos we take everyday.</p>  
+              <a class="sign-up" href="./pages/page-one.html">Sign Up</a>
+            </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer>
+        <div class="inner-column">
+          <div class="bottom">
+            <h3>Copyright @ TLQ</h3>
+          </div>
+        </div>
+      </footer>
+
     </body>
 </html>
